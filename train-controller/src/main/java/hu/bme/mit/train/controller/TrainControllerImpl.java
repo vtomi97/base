@@ -8,7 +8,7 @@ public class TrainControllerImpl implements TrainController {
 	BUGFIX
 	 */
 
-	private int step = 0;
+	private int step = 1;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
 

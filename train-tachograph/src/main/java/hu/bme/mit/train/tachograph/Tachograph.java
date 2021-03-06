@@ -3,8 +3,6 @@ package hu.bme.mit.train.tachograph;
 import com.google.common.collect.Table;
 import com.google.common.collect.TreeBasedTable;
 
-import java.sql.Time;
-import java.sql.Timestamp;
 import java.time.LocalTime;
 
 public class Tachograph {
@@ -17,5 +15,9 @@ public class Tachograph {
         table.put(key, 1, joystickPosition);
         table.put(key, 2, referenceSpeed);
         key++;
+    }
+
+    Boolean isEmpty(){
+        return table.isEmpty();
     }
 }

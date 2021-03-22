@@ -58,7 +58,7 @@ public class TrainControllerImpl implements TrainController {
 				followSpeed();
 			}
 		};
-		t.scheduleAtFixedRate(tt, 100, 100);
+		t.scheduleAtFixedRate(tt, 500, 100);
 	}
 
 
